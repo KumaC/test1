@@ -1,7 +1,7 @@
 define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {
     var NC = require('nc');
     var CPN = require('cpn');
-
+    var     a = 1
     var $ = NC.$;
     var Base = NC.Base;
     var Clazz = NC.Clazz;
