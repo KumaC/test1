@@ -1,0 +1,28 @@
+define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {define(function (require, exports, module) {
+    var NC = require('nc');
+    var CPN = require('cpn');
+
+    var $ = NC.$;
+    var Base = NC.Base;
+    var Clazz = NC.Clazz;
+    var Component = NC.Component;
+
+    var Cpn = module.exports = Clazz.create();
+
+    Clazz.mix(Cpn, Component, {
+        _template: [
+
+        ].join(''),
+        listeners: [{
+            name: 'render',
+            type: 'custom',
+            handler: function () {
+                var that = this;
+
+            }
+        }]
+    }, {
+
+    });
+    
+});
